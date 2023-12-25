@@ -1,0 +1,61 @@
+/* App.css */
+.app-container {
+  text-align: center;
+  width: 70%;
+  margin: 10% auto;
+  border-radius: 5px;
+  box-shadow: 10px 12px 8px rgba(128, 128, 128, 0.5);
+  background-image: url('bg.png');
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app-title {
+  margin-top: 50px;
+}
+
+nav {
+  margin-top: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
+
+.nav-button:active,
+.nav-button:focus,
+.nav-button:hover {
+  background-color: red;
+  color: white;
+}
+
+
+.yellow-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  color: #000; /* Crna boja teksta na žutom dugmetu */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.red-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff; /* Bela boja teksta na crvenom dugmetu */
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Dodajte ostale stilizacije prema potrebi */
