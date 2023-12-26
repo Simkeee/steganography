@@ -1,5 +1,5 @@
 Steganografski Messenger
-O Teganografiji
+O Steganografiji
 Steganografija je veština prikrivanja poruka ili informacija unutar drugih nešto manje očiglednih podataka, čime se omogućava tajno komuniciranje. U ovom projektu, istražujemo tehniku prikrivenog komuniciranja putem umetanja tajnih poruka u slike.
 
 O Aplikaciji
