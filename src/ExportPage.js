@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 const ExportPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -43,14 +44,14 @@ const ExportPage = () => {
 
       for (let i = 0; i < data.length; i += 4) {
         if ((i / 4) % 3600 === 0 && byteIndex < textBytes.length) {
-          // Očuvajte postojeće vrednosti za G i B komponente
+          // Očuvanje postojeće vrednosti za G i B komponente
           const greenComponent = data[i + 1];
           const blueComponent = data[i + 2];
 
-          // Postavite novu vrednost za crvenu komponentu (R)
+          // Postavljanje nove vrednosti za crvenu komponentu (R)
           data[i] = textBytes[byteIndex];
 
-          // Vratite postojeće vrednosti za G i B komponente
+          // Vracanje postojeće vrednosti za G i B komponente
           data[i + 1] = greenComponent;
           data[i + 2] = blueComponent;
 
@@ -74,7 +75,7 @@ const ExportPage = () => {
 
   return (
     <div>
-      <h1>Umetnite tajnu poruku u sliku</h1>
+      <h2>Umetnite tajnu poruku u sliku</h2>
       <div>
         <button className="yellow-button" onClick={() => document.getElementById('imageInput').click()}>
           Odaberite sliku

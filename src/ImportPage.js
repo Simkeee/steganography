@@ -74,7 +74,7 @@ const ImportPage = () => {
 
   return (
     <div>
-      <h1>Pročitajte tajnu poruku</h1>
+      <h2>Pročitajte tajnu poruku</h2>
       <input
         type="file"
         accept="image/*"
