@@ -78,8 +78,9 @@ const ExportPage = () => {
       <h2>Umetnite tajnu poruku u sliku</h2>
       <div>
         <button className="yellow-button" onClick={() => document.getElementById('imageInput').click()}>
-          Odaberite sliku
+          Odaberite sliku<br/>*PDF*
         </button>
+        <h4>*Znak ! unesite na kraju poruke</h4>
         <input
           type="file"
           accept="image/*"
