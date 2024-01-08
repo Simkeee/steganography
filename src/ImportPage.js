@@ -83,7 +83,7 @@ const ImportPage = () => {
         style={{ display: 'none' }}
       />
       <button className="yellow-button" onClick={handleChooseFile}>
-        Odaberite sliku<br/>*PDF*
+        Odaberite sliku<br/>*PNG*
       </button>
       {selectedImage && (
         <div>
